@@ -15,7 +15,7 @@ body {
 
 #frame {
 	display: inline-block;
-	
+
 	/* Center position hack (CSS sucks)*/
 	width: 1130px;
 	height: 308px;
@@ -100,7 +100,7 @@ body {
 .blocktitle {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
-	color: var(--gray3);
+	color: var(--gray1);
 	padding-top: 0px;
 	padding-bottom: 4px;
 	margin-bottom: 5px;
@@ -161,10 +161,9 @@ li {
 #BA:hover{
 	color: var(--gray1);
 }
-	
+
 a:link    { text-decoration:none; font-weight:normal; color:var(--white1); }
 a:visited { text-decoration:none; font-weight:normal; color:var(--white1); }
 a:hover   { text-decoration:none; font-weight:normal; color:var(--gray1) ; transition: 200ms; }
 a:active  { text-decoration:none; font-weight:normal; color:var(--white1); }
 a:focus   { text-decoration:none; font-weight:normal; color:var(--white1); }
-	
