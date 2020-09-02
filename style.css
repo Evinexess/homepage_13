@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'ObjectSans';
+    src: url("../homepage_13/fonts/ObjectSans-Slanted.otf") format('opentype');
+}
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:600,700');
 :root {
 	--white1: rgb(240, 233, 233);
@@ -27,6 +32,7 @@ body {
 }
 
 #frame0{
+	font-family: 'ObjectSans';
 	text-align: left;
 	float: left;
 	margin-left: 20px;
@@ -55,7 +61,7 @@ body {
 }
 
 #Title {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'ObjectSans';
 	font-weight: 700;
 	color: var(--white1);
 	font-size: 1.5em;
@@ -74,7 +80,7 @@ body {
 	background-color: rgb(236, 236, 236);
 	color: var(--gray2);
 	font-size: 1em;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'ObjectSans';
 	font-weight: 600;
 	caret-color: var(--gray2);
 	margin-left: 5px;
@@ -82,7 +88,7 @@ body {
 
 
 .linkblock {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'ObjectSans';
 	font-weight: 600;
 	width: 120px;
 	height: 230px;
@@ -98,7 +104,7 @@ body {
 }
 
 .blocktitle {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'ObjectSans';
 	font-weight: 700;
 	color: var(--gray1);
 	padding-top: 0px;
@@ -151,7 +157,7 @@ li {
 	bottom: 25px;
 	left: 40px;
 
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'ObjectSans', sans-serif;
 	font-weight: 700;
 	color: var(--white1);
 	user-select: none;
