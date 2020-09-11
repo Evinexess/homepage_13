@@ -12,6 +12,7 @@ String.prototype.replaceChars = function(character, replacement){
     return str;
 }
 
+
 function search(query){
     switch(query.substr(0, 2)){
 
@@ -21,7 +22,7 @@ function search(query){
     }
 }
 
-window.onload = function(){
+function auf(){
     // search
     searchinput = document.getElementById("searchbox");
     if(!!searchinput){
@@ -33,4 +34,13 @@ window.onload = function(){
             }
         });
     }
+}
+
+function setFocus() {
+  document.getElementById("searchbox").focus();
+}
+
+window.onload = function() {
+  auf();
+  setFocus();
 }
