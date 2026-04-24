@@ -13,6 +13,10 @@
 	--background: #000000;
 }
 
+* {
+	scroll-behavior: smooth;
+}
+
 body {
 	background-color: var(--background);
 	background-image: url("img/background.png");
@@ -20,6 +24,7 @@ body {
 
 #frame {
 	display: inline-block;
+	animation: fadeIn 0.5s ease-in;
 
 	/* Center position hack (CSS sucks)*/
 	width: 1130px;
@@ -29,6 +34,11 @@ body {
 	left: 50%;
 	margin-left: -565px;
 	margin-top: -154px;
+}
+
+@keyframes fadeIn {
+	from { opacity: 0; transform: translateY(-10px); }
+	to { opacity: 1; transform: translateY(0); }
 }
 
 #frame0{
@@ -84,8 +94,13 @@ body {
 	font-weight: 600;
 	caret-color: var(--gray2);
 	margin-left: 5px;
+	transition: all 0.3s ease;
 }
 
+#searchbox:focus {
+	box-shadow: 0 0 10px rgba(240, 233, 233, 0.5);
+	border: 2px solid var(--gray1);
+}
 
 .linkblock {
 	font-family: 'ObjectSans';
@@ -101,6 +116,12 @@ body {
 	font-size: 1em;
 	display: inline-block;
 	vertical-align: top;
+	transition: background-color 0.3s ease;
+}
+
+.linkblock:hover {
+	background-color: rgba(240, 233, 233, 0.1);
+	border-radius: 8px;
 }
 
 .blocktitle {
@@ -130,6 +151,12 @@ li {
 	background-color: var(--white1);
 	border-radius: 3px;
 	cursor: pointer;
+	animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+	0%, 100% { opacity: 0.4; }
+	50% { opacity: 0.7; }
 }
 
 .button:hover {
@@ -170,6 +197,7 @@ li {
 
 a:link    { text-decoration:none; font-weight:normal; color:var(--white1); }
 a:visited { text-decoration:none; font-weight:normal; color:var(--white1); }
-a:hover   { text-decoration:none; font-weight:normal; color:var(--gray1) ; transition: 200ms; }
+a:hover   { text-decoration:none; font-weight:normal; color:var(--gray1) ; transition: all 0.3s ease; text-shadow: 0 0 5px var(--white1); }
 a:active  { text-decoration:none; font-weight:normal; color:var(--white1); }
 a:focus   { text-decoration:none; font-weight:normal; color:var(--white1); }
+
