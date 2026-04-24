@@ -97,7 +97,7 @@ body {
 	font-weight: 600;
 	caret-color: var(--gray2);
 	margin-left: 5px;
-	margin-top: 15px;
+	margin-top: 30px;
 	transition: all 0.3s ease;
 }
 
@@ -219,5 +219,4 @@ a:visited { text-decoration:none; font-weight:normal; color:var(--white1); }
 a:hover   { text-decoration:none; font-weight:normal; color:var(--gray1) ; transition: color 0.2s ease; transform: scale(1.05); display: inline-block; }
 a:active  { text-decoration:none; font-weight:normal; color:var(--white1); }
 a:focus   { text-decoration:none; font-weight:normal; color:var(--white1); }
-
 
