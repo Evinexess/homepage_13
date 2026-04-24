@@ -106,12 +106,13 @@ body {
 	font-family: 'ObjectSans';
 	font-weight: 600;
 	width: 120px;
-	height: 230px;
+	min-height: 230px;
+	height: auto;
 	margin-left: 10px;
 	margin-right: 10px;
 	color: var(--white1);
 	text-align: left;
-	background-position: top 15px center;
+	background-position: top 10px center;
 	background-repeat: no-repeat;
 	font-size: 1em;
 	display: inline-block;
@@ -125,34 +126,28 @@ body {
 }
 
 .linkblock ul {
-	overflow: hidden;
-	height: 100%;
-}
-
-.linkblock:hover {
-	background-color: rgba(240, 233, 233, 0.05);
-	border-color: var(--gray1);
-	box-shadow: 0 0 15px rgba(161, 158, 158, 0.3);
+	overflow: visible;
 }
 
 .blocktitle {
 	font-family: 'ObjectSans';
 	font-weight: 700;
 	color: var(--gray1);
-	padding-top: 5px;
-	padding-bottom: 4px;
-	padding-left: 5px;
-	margin-bottom: 5px;
+	padding-top: 0px;
+	padding-bottom: 3px;
+	padding-left: 0px;
+	margin-bottom: 3px;
 }
 
 ul {
 	list-style-type: none;
-	padding-left: 5px;
+	padding-left: 0px;
 }
 
 li {
-	margin-bottom: 5px;
-	padding-left: 5px;
+	margin-bottom: 3px;
+	padding-left: 0px;
+	font-size: 0.9em;
 }
 
 
@@ -213,6 +208,4 @@ a:visited { text-decoration:none; font-weight:normal; color:var(--white1); }
 a:hover   { text-decoration:none; font-weight:normal; color:var(--gray1) ; transition: color 0.2s ease; transform: scale(1.05); display: inline-block; }
 a:active  { text-decoration:none; font-weight:normal; color:var(--white1); }
 a:focus   { text-decoration:none; font-weight:normal; color:var(--white1); }
-
-
 
