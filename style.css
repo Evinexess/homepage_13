@@ -105,7 +105,8 @@ body {
 .linkblock {
 	font-family: 'ObjectSans';
 	font-weight: 600;
-	width: 120px;
+	width: auto;
+	min-width: 120px;
 	min-height: 230px;
 	height: auto;
 	margin-left: 10px;
@@ -122,7 +123,13 @@ body {
 	padding: 10px;
 	box-sizing: border-box;
 	border-radius: 8px;
-	overflow: hidden;
+	overflow: visible;
+}
+
+.linkblock:hover {
+	border-color: rgba(161, 158, 158, 0.6);
+	box-shadow: 0 0 15px rgba(240, 233, 233, 0.3);
+	background-color: rgba(255, 255, 255, 0.05);
 }
 
 .linkblock ul {
