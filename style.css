@@ -27,12 +27,12 @@ body {
 	animation: fadeIn 0.5s ease-in;
 
 	/* Center position hack (CSS sucks)*/
-	width: 1130px;
+	width: 1350px;
 	height: 308px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	margin-left: -565px;
+	margin-left: -675px;
 	margin-top: -154px;
 }
 
@@ -61,8 +61,11 @@ body {
 }
 
 .frame1 {
-	width: 860px;
+	width: 1000px;
 	text-align: left;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
 }
 
 .frame1b {
@@ -94,6 +97,7 @@ body {
 	font-weight: 600;
 	caret-color: var(--gray2);
 	margin-left: 5px;
+	margin-top: 15px;
 	transition: all 0.3s ease;
 }
 
@@ -215,4 +219,5 @@ a:visited { text-decoration:none; font-weight:normal; color:var(--white1); }
 a:hover   { text-decoration:none; font-weight:normal; color:var(--gray1) ; transition: color 0.2s ease; transform: scale(1.05); display: inline-block; }
 a:active  { text-decoration:none; font-weight:normal; color:var(--white1); }
 a:focus   { text-decoration:none; font-weight:normal; color:var(--white1); }
+
 
