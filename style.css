@@ -111,14 +111,14 @@ body {
 	margin-right: 10px;
 	color: var(--white1);
 	text-align: left;
-	background-position: top 0px center;
+	background-position: top 15px center;
 	background-repeat: no-repeat;
 	font-size: 1em;
 	display: inline-block;
 	vertical-align: top;
 	transition: all 0.3s ease;
 	border: 2px solid transparent;
-	padding: 10px;
+	padding: 15px 10px 15px 10px;
 	box-sizing: border-box;
 	border-radius: 8px;
 }
