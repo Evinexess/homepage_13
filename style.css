@@ -116,8 +116,8 @@ body {
 	font-size: 1em;
 	display: inline-block;
 	vertical-align: top;
-	transition: all 0.3s ease;
-	border: 2px solid transparent;
+	transition: border-color 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+	border: 2px solid rgba(161, 158, 158, 0.2);
 	padding: 15px 10px 15px 10px;
 	box-sizing: border-box;
 	border-radius: 8px;
@@ -207,5 +207,6 @@ a:visited { text-decoration:none; font-weight:normal; color:var(--white1); }
 a:hover   { text-decoration:none; font-weight:normal; color:var(--gray1) ; transition: color 0.2s ease; transform: scale(1.05); display: inline-block; }
 a:active  { text-decoration:none; font-weight:normal; color:var(--white1); }
 a:focus   { text-decoration:none; font-weight:normal; color:var(--white1); }
+
 
 
