@@ -197,7 +197,7 @@ li {
 
 a:link    { text-decoration:none; font-weight:normal; color:var(--white1); }
 a:visited { text-decoration:none; font-weight:normal; color:var(--white1); }
-a:hover   { text-decoration:none; font-weight:normal; color:var(--gray1) ; transition: all 0.3s ease; text-shadow: 0 0 5px var(--white1); }
+a:hover   { text-decoration:none; font-weight:normal; color:var(--gray1) ; transition: color 0.2s ease; transform: scale(1.05); display: inline-block; }
 a:active  { text-decoration:none; font-weight:normal; color:var(--white1); }
 a:focus   { text-decoration:none; font-weight:normal; color:var(--white1); }
 
